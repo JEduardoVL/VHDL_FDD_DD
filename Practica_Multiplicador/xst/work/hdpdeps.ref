@@ -1,0 +1,8 @@
+V3 3
+FL /home/ise/Desktop/Practica_Multiplicador/multiplicador.vhd 2022/10/18.14:21:38 P.20131013
+EN work/multiplicador 1666102899 \
+      FL /home/ise/Desktop/Practica_Multiplicador/multiplicador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplicador/Behavioral 1666102900 \
+      FL /home/ise/Desktop/Practica_Multiplicador/multiplicador.vhd \
+      EN work/multiplicador 1666102899

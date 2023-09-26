@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Desktop/Practica_Multiplicador/multiplicador.ncd
+OUTFILE=/home/ise/Desktop/Practica_Multiplicador/multiplicador.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/ise/Desktop/Practica_Multiplicador
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

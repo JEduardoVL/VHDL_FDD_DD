@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.xst" -ofn "/home/ise/Desktop/Practica_Multiplicador/multiplicador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 multiplicador.ngc multiplicador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+par -w -intstyle ise -ol high -t 1 multiplicador_map.ncd multiplicador.ncd multiplicador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplicador.twx multiplicador.ncd -o multiplicador.twr multiplicador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplicador.ucf -p xc3s500e-fg320-4 multiplicador.ngc multiplicador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+par -w -intstyle ise -ol high -t 1 multiplicador_map.ncd multiplicador.ncd multiplicador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplicador.twx multiplicador.ncd -o multiplicador.twr multiplicador.pcf -ucf multiplicador.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplicador.ucf -p xc3s500e-fg320-4 multiplicador.ngc multiplicador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplicador.ucf -p xc3s500e-fg320-4 multiplicador.ngc multiplicador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplicador.ucf -p xc3s500e-fg320-4 multiplicador.ngc multiplicador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplicador.ucf -p xc3s500e-fg320-4 multiplicador.ngc multiplicador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o multiplicador_map.ncd multiplicador.ngd multiplicador.pcf 
+par -w -intstyle ise -ol high -t 1 multiplicador_map.ncd multiplicador.ncd multiplicador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multiplicador.twx multiplicador.ncd -o multiplicador.twr multiplicador.pcf -ucf multiplicador.ucf 
+bitgen -intstyle ise -f multiplicador.ut multiplicador.ncd 
